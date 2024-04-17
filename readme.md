@@ -10,9 +10,15 @@ Title
 
 ### Abstract (Resumen)
 
+Place text here
+
 ### Screenshots (Pantallazos)
 
+Place text here
+
 ### TOOLS TIC'S (Herramientas TIC'S)
+
+Place text here
 
 ### Status (Estado del trabajo)
 
@@ -22,7 +28,11 @@ Title
 
 ### Keyworks (Palabras claves)
 
+Place text here
+
 ### Roadmap (Hoja de ruta)
+
+Place text here
 
 ### Getting Started...(Iniciando... )
 	
@@ -37,8 +47,14 @@ Title
 
 ### Usage (Por qué es importante usarlo)
 
+Place text here
+
 ### FAQ (Preguntas y respuestas)
 
+Place text here
+
 ### Contacts (Contactos)
+
+Place text here
 
 ### Acknowledgements (Agradecimientos)
