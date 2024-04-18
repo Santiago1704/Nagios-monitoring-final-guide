@@ -28,7 +28,10 @@ Place text here
 
 ### Keyworks (Palabras claves)
 
-Place text here
+- `Server`
+- `Nagios`
+- `Ubuntu`
+- `Monitoring`
 
 ### Roadmap (Hoja de ruta)
 
