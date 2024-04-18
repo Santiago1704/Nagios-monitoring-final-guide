@@ -32,10 +32,6 @@ Place text here
 
 ### Roadmap (Hoja de ruta)
 
-Place text here
-
-### Getting Started...(Iniciando... )
-	
 	 Pre-requisitos (Pre-Requisites)
 	 Instalación (Installation)
 
