@@ -42,7 +42,7 @@ Place text here
 		Servidor (Server)
 			Item1
 			Item2
-			Item3
+			Item3 - plugins 
 		Clientes (Client)
 
 ### Usage (Por qué es importante usarlo)
@@ -51,10 +51,12 @@ Place text here
 
 ### FAQ (Preguntas y respuestas)
 
-Place text here
+5 preguntas y respuestas
 
 ### Contacts (Contactos)
 
 Place text here
 
 ### Acknowledgements (Agradecimientos)
+
+
