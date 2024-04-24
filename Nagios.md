@@ -37,7 +37,7 @@ Place text here
 - `Plugin`
 - `Cloud`
 
-### Roadmap (Hoja de ruta)
+### Roadmap
 
 	Pre-Requisites
 	* Operating System: Choose a suitable operating system for Nagios installation. Nagios is compatible with various Linux distributions such as Ubuntu, Debian, CentOS, and Fedora. Select the distribution 	that you're most comfortable with and ensure it meets Nagios' system requirements.
@@ -56,6 +56,10 @@ Place text here
 			Item2
 			Item3 - plugins 
 		Clientes (Client)
+
+
+### Steps for Nagios installation
+
 
 ### Usage (Por qué es importante usarlo)
 
