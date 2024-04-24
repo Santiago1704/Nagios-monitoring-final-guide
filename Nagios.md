@@ -1,7 +1,7 @@
 Nagios Monitoring Guide 
 =================
 
-### Authors (Autores) 
+Authors (Autores) 
 =================
 
 | Author                | Origin                               |
@@ -9,23 +9,24 @@ Nagios Monitoring Guide
 | Santiago Altamar      | UniBarranquilla - IUB                |
 | Jenifer Barraza       | UniBarranquilla - IUB                |
 
-### Abstract
+Abstract
 =================
 
 Nagios is a powerful tool for monitoring IT infrastructure, ensuring the health and performance of networks, servers, applications, and services. This comprehensive guide offers step-by-step instructions for downloading and installing Nagios, enabling users to set up robust monitoring systems tailored to their specific needs. Whether you're a seasoned IT professional or a novice exploring monitoring solutions, this guide provides valuable insights and practical tips to maximize the efficiency and effectiveness of your monitoring efforts. From initial setup to advanced configurations, this guide equips you with the knowledge and tools necessary to harness the full potential of Nagios for proactive monitoring and maintenance of your IT environment. Get started today and empower your organization with real-time insights and proactive monitoring capabilities.
 
-### Screenshots
+Screenshots
 =================
 
 Place text here
 
-### TOOLS TIC'S
+TOOLS TIC'S
+=================
 
 * Oracle Virtual Box
 * Ubuntu Server
 * Putty
 
-### Status
+Status
 =================
 
 | Status            | Description                          |
@@ -41,7 +42,7 @@ Place text here
 - `Plugin`
 - `Cloud`
 
-### Roadmap
+Roadmap
 =================
 
 	Pre-Requisites
@@ -63,7 +64,7 @@ Place text here
 		Clientes (Client)
 
 
-### Steps for Nagios installation
+Steps for Nagios installation
 =================
 ### Step 1: Upgrade the system and update the system packages to their latest versions
 	sudo apt update
@@ -79,6 +80,61 @@ Place text here
 
  
 Next, let's download the Nagios kernel. You can check the versions page for the latest version. At the time of writing, the latest version of Nagios is v4.4.6.
+
+### Step 4: How to install Nagios on Ubuntu
+	cd nagios-4.4.6
+ 	./configure
+  This will take a few seconds and be sure to get an example output shown below towards the end.
+  
+  ![image](https://github.com/Santiago1704/Nagios-monitoring-final-guide/assets/84638545/5ddacaf0-ad84-468c-a36b-d9fee2335cda)
+
+  To compile the main program along with the CGIs, run the make all command as follows.
+  
+	sudo make all
+ 
+ Next, create the group users as follows.
+ 
+ 	sudo make install-groups-users
+  	sudo usermod -a -G nagios www-data
+   
+   ![image](https://github.com/Santiago1704/Nagios-monitoring-final-guide/assets/84638545/f88d8003-8acc-449a-a488-48601f2273aa)
+
+Next, install Nagios Core 4.x on your Ubuntu 20.04 system.
+
+	sudo make install
+
+ ![image](https://github.com/Santiago1704/Nagios-monitoring-final-guide/assets/84638545/18791ff4-9310-4b20-8a63-16282da7b13a)
+
+ Towards the end, some additional instructions will be printed as shown above. Therefore, run the following command to install the init script in the path /lib/systemd/system.
+
+ 	sudo make install-init
+
+  Next, install and set permissions on the directory containing the external command file.
+
+  	sudo make install-commandmode
+
+   Next, install the sample configuration files in /usr/local/nagios/etc/
+
+   	sudo make install-config
+
+At this point, activate the Apache module required for the Nagios web interface.
+
+	sudo make install-webconf
+	sudo a2enmod rewrite cgi
+ 	sudo systemctl restart apache2
+
+  Also, feel free to install the Nagios exfoliation theme as follows:
+
+  	sudo make install-exfoliation
+
+   For the classic Nagios theme, run the following command.
+
+   	sudo make install-classicui
+
+    
+
+   
+
 
 ### Usage (Por qué es importante usarlo)
 
