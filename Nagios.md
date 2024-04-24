@@ -1,7 +1,8 @@
 Nagios Monitoring Guide 
 =================
 
-### Authors (Autores)
+### Authors (Autores) 
+=================
 
 | Author                | Origin                               |
 | --------------------- | ------------------------------------ |
@@ -9,10 +10,12 @@ Nagios Monitoring Guide
 | Jenifer Barraza       | UniBarranquilla - IUB                |
 
 ### Abstract
+=================
 
 Nagios is a powerful tool for monitoring IT infrastructure, ensuring the health and performance of networks, servers, applications, and services. This comprehensive guide offers step-by-step instructions for downloading and installing Nagios, enabling users to set up robust monitoring systems tailored to their specific needs. Whether you're a seasoned IT professional or a novice exploring monitoring solutions, this guide provides valuable insights and practical tips to maximize the efficiency and effectiveness of your monitoring efforts. From initial setup to advanced configurations, this guide equips you with the knowledge and tools necessary to harness the full potential of Nagios for proactive monitoring and maintenance of your IT environment. Get started today and empower your organization with real-time insights and proactive monitoring capabilities.
 
 ### Screenshots
+=================
 
 Place text here
 
@@ -23,6 +26,7 @@ Place text here
 * Putty
 
 ### Status
+=================
 
 | Status            | Description                          |
 | ----------------- | ------------------------------------ |
@@ -38,6 +42,7 @@ Place text here
 - `Cloud`
 
 ### Roadmap
+=================
 
 	Pre-Requisites
 	* Operating System: Choose a suitable operating system for Nagios installation. Nagios is compatible with various Linux distributions such as Ubuntu, Debian, CentOS, and Fedora. Select the distribution 	that you're most comfortable with and ensure it meets Nagios' system requirements.
@@ -59,9 +64,21 @@ Place text here
 
 
 ### Steps for Nagios installation
-
-### Step 1: Upgrade the system
+=================
+### Step 1: Upgrade the system and update the system packages to their latest versions
 	sudo apt update
+ 	sudo apt upgrade
+
+### Step 2: Install prerequisite packages
+	sudo apt install wget unzip vim curl gcc openssl build-essential libgd-dev libssl-dev libapache2-mod-php php-gd php apache2
+
+### Step 3: Download Nagios Core on Ubuntu 20.04
+	export VER="4.4.6"
+ 	curl -SL https://github.com/NagiosEnterprises/nagioscore/releases/download/nagios-$VER/nagios-$VER.tar.gz | tar -xzf -
+  ![image](https://github.com/Santiago1704/Nagios-monitoring-final-guide/assets/84638545/f5b60c7d-b502-4a2b-8839-c09f8ecefcc4)
+
+ 
+Next, let's download the Nagios kernel. You can check the versions page for the latest version. At the time of writing, the latest version of Nagios is v4.4.6.
 
 ### Usage (Por qué es importante usarlo)
 
