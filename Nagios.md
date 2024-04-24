@@ -40,16 +40,16 @@ Place text here
 ### Roadmap (Hoja de ruta)
 
 	Pre-Requisites
-* Operating System: Choose a suitable operating system for Nagios installation. Nagios is compatible with various Linux distributions such as Ubuntu, Debian, CentOS, and Fedora. Select the distribution that you're most comfortable with and ensure it meets Nagios' system requirements.
-* Hardware Resources: Ensure that the host machine where Nagios will be installed has sufficient hardware resources. This includes CPU cores, RAM, and disk space. Nagios can consume significant resources, especially when monitoring a large number of hosts and services.
-* Network Configuration: Configure network settings for the Nagios host machine to ensure connectivity to other devices on the network. Set up networking according to your network requirements, ensuring that Nagios can communicate with the systems it monitors.
-* Access to Package Repositories: Ensure that the Nagios host machine has access to package repositories to install necessary software packages and dependencies. This may require configuring network settings or updating repository URLs if you're using a custom repository.
-* Basic Linux Skills: Familiarize yourself with basic Linux commands and system administration tasks. This includes navigating the file system, installing packages, editing configuration files, and managing services. Proficiency in Linux will streamline the installation and configuration process of Nagios.
+	* Operating System: Choose a suitable operating system for Nagios installation. Nagios is compatible with various Linux distributions such as Ubuntu, Debian, CentOS, and Fedora. Select the distribution 	that you're most comfortable with and ensure it meets Nagios' system requirements.
+	* Hardware Resources: Ensure that the host machine where Nagios will be installed has sufficient hardware resources. This includes CPU cores, RAM, and disk space. Nagios can consume significant 		resources, especially when monitoring a large number of hosts and services.
+	* Network Configuration: Configure network settings for the Nagios host machine to ensure connectivity to other devices on the network. Set up networking according to your network requirements, ensuring 	that Nagios can communicate with the systems it monitors.
+	* Access to Package Repositories: Ensure that the Nagios host machine has access to package repositories to install necessary software packages and dependencies. This may require configuring network 		settings or updating repository URLs if you're using a custom repository.
+	* Basic Linux Skills: Familiarize yourself with basic Linux commands and system administration tasks. This includes navigating the file system, installing packages, editing configuration files, and 		managing services. Proficiency in Linux will streamline the installation and configuration process of Nagios.
 
 	 Installation
-  * Linux Ubuntu 20.04
-  * Apache
-  * Plugins
+  	* Linux Ubuntu 20.04
+  	* Apache
+ 	* Plugins
 
 		Server
 			Item1
