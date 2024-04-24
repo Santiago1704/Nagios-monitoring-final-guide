@@ -60,6 +60,8 @@ Place text here
 
 ### Steps for Nagios installation
 
+### Step 1: Upgrade the system
+	sudo apt update
 
 ### Usage (Por qué es importante usarlo)
 
